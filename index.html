@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11100e" />
+    <title>TVA Birthday Processing · Kritika</title>
+    <link rel="icon" href="tvalogo.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/tva-upgrades.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="crt" aria-hidden="true"></div>
+    <svg class="timeline-bg" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+      <g class="timeline-paths">
+        <path d="M0 580 C180 480 230 550 370 360 S570 150 720 250 S970 400 1200 120" />
+        <path d="M0 620 C160 500 250 570 390 430 S520 180 680 100 S900 220 1200 360" />
+        <path d="M120 700 C300 580 350 490 450 300 S650 300 760 450 S1000 550 1200 470" />
+        <path d="M430 350 C520 400 560 520 650 570 S820 590 930 700" />
+      </g>
+    </svg>
+    <div class="boot" id="boot">
+      <div class="boot-logo"><img src="tvalogowhite.png" alt="" /><span>TVA // TEMPAD CONSOLE</span></div>
+      <div class="analog-clock" aria-label="TVA analog clock"><span class="clock-face"></span><i class="clock-hand hour"></i><i class="clock-hand minute"></i><i class="clock-hand second"></i><b>TVA</b></div>
+      <div class="boot-clock" id="boot-clock">00:00:00</div>
+      <p class="eyebrow">TIME VARIANCE AUTHORITY · PERSONAL TRANSMISSION</p>
+      <div class="terminal" id="terminal" aria-live="polite"><span></span></div>
+      <h1>WELCOME<br /><span>TO THE TVA</span></h1>
+      <p class="boot-copy">A birthday variance has been detected in the sacred timeline. It is classified as extremely special.</p>
+      <button class="stamp-button" id="boot-button">PROCESS KRITIKA'S BIRTHDAY VARIANT <b>↗</b></button>
+      <p class="boot-note">FOR ALL TIME. ALWAYS. · AUDIO OPTIONAL</p>
+      <div class="marquee"><span>FOR ALL TIME · ALWAYS · HAPPY BIRTHDAY KRITIKA · FOR ALL TIME · ALWAYS · HAPPY BIRTHDAY KRITIKA ·</span></div>
+    </div>
+
+    <div class="app" id="app" aria-hidden="true">
+      <header class="topbar">
+        <button class="mini-brand" data-scene="hub"><img src="tvalogo.png" alt="" /> TVA / BIRTHDAY DESK</button>
+        <span class="live"><i></i> sacred timeline stable</span>
+        <button class="sound-toggle" id="sound-toggle" aria-label="Toggle interface sounds">SOUND: OFF</button>
+      </header>
+
+      <main>
+        <section class="scene hub active" id="hub">
+          <div class="scene-kicker">SERVICE DESK · FILE 0026-K</div>
+          <h2>Good morning,<br /><em>Kritika.</em></h2>
+          <p class="scene-lede">The TVA has temporarily paused all pruning operations to celebrate the birthday of its most delightful variant.</p>
+          <div class="hub-grid">
+            <button class="folder-card" data-scene="intake"><span>01</span><strong>VARIANT INTAKE</strong><small>Make your official TVA identity card</small><b>OPEN FILE ↗</b></button>
+            <button class="folder-card" data-scene="case"><span>02</span><strong>CASE FILE: KRITIKA</strong><small>Evidence, findings &amp; extremely sweet allegations</small><b>OPEN FILE ↗</b></button>
+            <button class="folder-card" data-scene="timeline"><span>03</span><strong>SACRED TIMELINE</strong><small>Click through the moments that made us</small><b>OPEN FILE ↗</b></button>
+            <button class="folder-card loki-folder" data-scene="loki"><span>04</span><strong>LOKI'S OFFICE</strong><small>The God of Stories left a note for you</small><b>OPEN FILE ↗</b></button>
+          </div>
+          <button class="secret-tab" id="secret-tab">do not click · definitely not a nexus event</button>
+        </section>
+
+        <section class="scene" id="intake">
+          <button class="back-button" data-scene="hub">← SERVICE DESK</button>
+          <div class="scene-heading"><div class="scene-kicker">FORM TVA-1130-B · PERSONAL VARIANT INTAKE</div><h2>Let's make your<br /><em>official ID card.</em></h2></div>
+          <div class="intake-layout">
+            <form class="paper-form" id="intake-form">
+              <label>VARIANT NAME<input name="name" value="Kritika (My Sani &lt;3)" readonly required /></label>
+              <label>DATE OF BIRTH<input name="dob" type="text" value="10/13/2004" readonly required /></label>
+              <label>ORIGIN TIMELINE<select name="origin"><option>The Timeline Where We Met</option><option>The Void (Mondays)</option><option>The Branch With Better Snacks</option><option>Earth-616: Birthday Edition</option></select></label>
+              <label>REASON FOR VARIANCE<textarea name="reason" rows="3">Too wonderful to remain inside one ordinary timeline.</textarea></label>
+              <button class="stamp-button dark" type="submit">GENERATE OFFICIAL CARD <b>✦</b></button>
+            </form>
+            <div class="id-preview"><canvas id="id-card" width="720" height="430"></canvas><p>Fill the form, then download your official TVA birthday credential.</p><button class="download-button" id="download-card" disabled>DOWNLOAD ID CARD ↓</button></div>
+          </div>
+        </section>
+
+        <section class="scene cream-scene" id="case">
+          <button class="back-button" data-scene="hub">← SERVICE DESK</button>
+          <div class="scene-heading"><div class="scene-kicker">CONFIDENTIAL · EYES OF KRITIKA ONLY</div><h2>Case File:<br /><em>The Irreplaceable Variant</em></h2></div>
+          <div class="case-layout">
+            <div class="case-paper"><div class="case-top"><span>TVA-0026-K</span><span>CLASSIFICATION: BELOVED</span></div><img src="fa187a7e2433be05742354565ef06711.jpg" alt="Kritika's timeline portrait" /><div class="case-stamp">APPROVED<br />FOR ALL TIME</div><p>Subject demonstrates exceptional kindness, dangerous levels of cuteness, and a suspicious ability to make bad days disappear.</p></div>
+            <div class="findings"><p class="eyebrow">OFFICIAL FINDINGS</p><button class="finding">♥ Reason I keep choosing you <span>+</span><small>Your laugh makes even the long timelines feel short.</small></button><button class="finding">♥ Known aliases <span>+</span><small>My favorite person · birthday queen · chaos coordinator.</small></button><button class="finding">♥ Recommended protocol <span>+</span><small>Give Kritika cake, forehead kisses, and the happiest year ever.</small></button><button class="prune-button" id="prune-button">STAMP: BAD DAYS — PRUNED</button><div class="pruned-note" id="pruned-note">BAD DAYS <span>PRUNED</span></div></div>
+          </div>
+        </section>
+
+        <section class="scene timeline-scene" id="timeline">
+          <button class="back-button" data-scene="hub">← SERVICE DESK</button>
+          <div class="scene-heading centered"><div class="scene-kicker">ARCHIVE 616 · RELATIONSHIP BRANCH</div><h2>Our Sacred<br /><em>Timeline</em></h2><p>Tap a node. The TVA has filed away a few reasons I love this branch.</p></div>
+          <div class="relationship-timeline"><div class="timeline-track"></div><button class="memory-node active" data-memory="start"><i>01</i><strong>THE BEGINNING</strong></button><button class="memory-node" data-memory="laugh"><i>02</i><strong>THE LAUGHS</strong></button><button class="memory-node" data-memory="today"><i>03</i><strong>RIGHT NOW</strong></button><button class="memory-node" data-memory="future"><i>04</i><strong>ALL FUTURE VARIANTS</strong></button></div>
+          <article class="memory-display" id="memory-display"><img src="tvaalways.jpg" alt="Timeline memory" /><div><p class="eyebrow" id="memory-label">THE BEGINNING</p><h3 id="memory-title">The best plot twist was finding you.</h3><p id="memory-copy">Somewhere in all the possible universes, ours crossed paths. I would choose that branch again and again.</p></div></article>
+        </section>
+
+        <section class="scene loki-scene" id="loki">
+          <button class="back-button" data-scene="hub">← SERVICE DESK</button>
+          <div class="loki-office"><div class="scene-kicker">OFFICE OF THE GOD OF STORIES · DO NOT PRUNE</div><h2>Loki has reviewed<br /><em>your timeline.</em></h2><p id="loki-copy">He left one message, but he is a god of stories, so he may have more.</p><button class="stamp-button" id="loki-verdict">REQUEST ANOTHER VERDICT ✦</button></div>
+          <div class="loki-visual"><div class="ring"></div><img src="loki-season-2.gif" alt="Loki from the timeline" /><span>VARIANT L-1130<br />APPROVED BY LOKI</span></div>
+        </section>
+
+        <section class="scene finale-scene" id="finale">
+          <div class="confetti" id="confetti"></div><img src="tvalogowhite.png" class="final-logo" alt="" /><p class="eyebrow">NEXUS EVENT RESOLVED</p><h2>Happy birthday,<br /><em>Kritika.</em></h2><p class="final-copy">Out of every timeline, every universe, every possible version of tomorrow — I am so grateful that this one has you in it.</p><p class="signature">For all time. Always. ♥</p><button class="stamp-button" id="replay">REPLAY THE TRANSMISSION ↻</button></section>
+      </main>
+
+      <button class="miss-cameo" id="miss-cameo" aria-label="Click Miss Minutes"><img src="missminutes2.gif" alt="Miss Minutes" /><span>psst... click me</span></button>
+      <div class="cameo-message" id="cameo-message" role="status"></div>
+      <div class="toast" id="toast"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
